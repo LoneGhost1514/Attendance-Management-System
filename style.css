@@ -1,0 +1,94 @@
+*{margin: 0;padding: 0;}
+body{
+    margin: 0;
+    font-family: ZedMono NF, monospace;
+}
+
+header nav{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    background-color: rgb(237, 237, 237);
+    padding: 10px 15%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.btn, select{
+    font-family: monospace;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: solid black 2px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #ababab;
+    transition: 200ms ease-out;
+}
+.btn-logout{
+    background-color: red;
+}    
+.btn-login{
+    background-color: greenyellow;
+}
+.btn-login:hover{
+    background-color: rgb(114, 169, 30);
+    transition: 200ms ease-out;
+}
+
+.btn-submit{
+    font-size: 12px;
+    padding: 1% 2%;
+}
+.tcenter{
+    text-align: center;
+}
+.tsmall{
+    font-size:14px ;
+    opacity: 60%;
+}
+.inp{
+    width: 100%;
+    padding: 2% 4%;
+    margin: 1% 0;
+}
+#hero{
+    margin: 200px 20%;
+    
+    padding: 0 5%;
+}
+#form{
+    background-color: #d1d1d1;
+    margin: 5% 40%;
+    padding: 4% 0;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+.selector{
+    padding: 20px 0;
+    padding-left: auto;
+    padding-left: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+#records{
+    width: 70%;
+    margin: 0 auto;
+}
+
+#records th{
+    padding: 2% 1%;
+}
+
+footer{
+    background-color: #d1d1d1;
+    width: 100%;
+    margin-top: auto;
+    position: absolute;
+    padding: 50px 0;
+}
